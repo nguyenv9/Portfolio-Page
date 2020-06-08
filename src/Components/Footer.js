@@ -13,7 +13,7 @@ function Footer() {
                         Vincent Nguyen
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3} >
-                        This site was my by Vincent Nguyen.
+                        This site was made by Vincent Nguyen.
                     </Col>
                 </Row>
             </Container>

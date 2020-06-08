@@ -3,7 +3,7 @@ import React from 'react';
 function ResumePage(props) {
 
     return(
-        <p>Resume</p>
+        <p></p>
     );
 
 } 
