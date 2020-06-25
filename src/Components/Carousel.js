@@ -18,7 +18,7 @@ class Carousel extends React.Component {
                 title: 'FishStore Website',
                 subTitle: 'Creating a fully functioning fishstore.',
                 imgSrc: fishImage,
-                link: 'https://github.com/nguyenv9',
+                link: 'https://github.com/nguyenv9/Django-FishStore',
                 selected: false
             },    
             {

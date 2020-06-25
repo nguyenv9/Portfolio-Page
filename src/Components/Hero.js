@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 function Hero(props) {
 
     return (
-        <Jumbotron calssName="bg-transparent jumbotron-fluid p-0">
+        <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container>
                 <Row className="justify-content-center py-5">
                     <Col md={8} sm={10} xs={10}>
