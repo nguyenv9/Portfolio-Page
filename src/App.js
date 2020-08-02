@@ -3,13 +3,14 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import HomePage from './Pages/HomePage'
+
+import Footer from './Components/Footer';
+import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
 import ResumePage from './Pages/ResumePage';
 import ContactPage from './Pages/ContactPage';
 import './App.css';
 
-import Footer from './Components/Footer';
 
 class App extends React.Component {
 
@@ -61,11 +62,11 @@ class App extends React.Component {
           </Navbar>
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
-          <Route path="/" exact render={() => <AboutPage title={this.state.about.title} />} />
-          <Route path="/" exact render={() => <ResumePage title={this.state.resume.title} />} />
-          <Route path="/" exact render={() => <ContactPage title={this.state.contact.title} />} />
+          <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
+          <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />} />
 
-          <Footer />
+          <Footer className="footer"/>
 
         </Container>
       </Router>

@@ -18,6 +18,12 @@ code {
     monospace;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+}
+
 .project-card {
   margin: 20px;
 }
@@ -45,4 +51,45 @@ code {
   margin: 0px; 
   width: 300px;
   word-wrap: break-word;
+}
+
+/* Social Follow Icons  */
+.social-container {
+
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: #E71349;
+}
+
+a.github {
+  color: black;
+}
+
+.success-msg {
+  color: #57a773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #ee6352;
+  padding: 10px 15px;
 }
